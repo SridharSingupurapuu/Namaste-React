@@ -6,9 +6,7 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": [
-    "React"
-  ],
-  "author": "sridhar",
+  "keywords": [],
+  "author": "Sridhar",
   "license": "ISC"
 }
