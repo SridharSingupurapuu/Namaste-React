@@ -8,13 +8,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script>
-        const heading = React.createElement("div",{id:"unique"},[React.createElement("h2",{id:"name"},"Sridhar"), React.createElement("p",{},"Frontend Developer")]);
-        const root = ReactDOM.createRoot(document.getElementById("root"));
-        root.render(heading);
-    </script>
-    <!-- <script src="./index.js"></script> --> 
+    <script type="module" src="./Components/App.js"></script> 
   </body>
 </html>
